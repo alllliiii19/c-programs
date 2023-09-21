@@ -12,8 +12,8 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    printf("The elements of the array are: ");
-    for (int j = 0; j < n; j++) {
+    printf("The elements of the array in reverse order are: ");
+    for (int j = n - 1; j >= 0; j--) {
         printf("%d ", arr[j]);
     }
 
